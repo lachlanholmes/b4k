@@ -7,18 +7,12 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
           <p>
-            Edit <code>src/App.js</code> and save to reload.
+            <h1>Bikes 4 Kids Test</h1>
           </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
+          <a className="App-link" href="/home" rel="noopener noreferrer">Home</a>
+          <a className="App-link" href="/contact" rel="noopener noreferrer">Contact</a>
+          <a className="App-link" href="/donate" rel="noopener noreferrer">Donate</a>
         </header>
       </div>
     );
